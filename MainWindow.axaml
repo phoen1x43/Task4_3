@@ -1,0 +1,43 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="500"
+        x:Class="Task4_3.MainWindow"
+        Title="Task4_3">
+        <Grid  ShowGridLines="True"
+	       RowDefinitions="auto, *">
+	       <DockPanel Background = "#104BA9"
+                          Height = "45"
+                          Grid.Row ="0">
+			<TextBlock Margin="3 12">Home</TextBlock>
+			<TextBlock Margin="3 12">About</TextBlock>
+			<TextBlock Margin="3 12">Blog's main topic 1</TextBlock>
+			<TextBlock Margin="3 12">Blog's main topic 2</TextBlock>
+			<TextBlock Margin="3 12">Blog's main topic 3</TextBlock>
+			<TextBlock Margin="3 12">Associated blogs</TextBlock>
+                        <TextBlock Margin="0 15 3 5">RSS</TextBlock>
+		</DockPanel>
+
+		   <StackPanel Grid.Row = "1"
+                        Grid.Column = "0"
+                        Background="2419B2"
+			Orientation = "Vertical">
+                   <TextBlock Margin="0 10" FontSize = "16" TextAlignment = "Left" Foreground = "#104BA9"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis, orci facilisis consequat mollis, eros tortor faucibus justo, suscipit fermentum justo turpis in nulla. Maecenas ipsum libero, auctor eu massa vel, auctor gravida libero. Vestibulum sed felis ac neque volutpat convallis. Fusce vitae metus vel mauris condimentum pulvinar. Interdum et malesuada fames ac ante ipsum primis in faucibus. Duis a lorem quam. Maecenas vel leo sodales, mattis neque et, gravida nunc. Aenean justo ligula, dictum nec mattis a, consequat vitae velit. Nullam purus ex, posuere ac ornare sed, tempor nec nisl. Pellentesque vitae imperdiet diam, quis tempus urna. Donec ac faucibus purus. Vivamus sed lorem iaculis, efficitur quam non, rutrum nunc. Morbi et sapien congue, facilisis nibh sed, fermentum tellus. Proin lobortis egestas massa a commodo. Duis non urna sit amet justo efficitur rutrum. Duis eget neque nulla.
+
+Vivamus facilisis efficitur egestas. Duis ac pharetra felis, tempus sodales enim. Integer a ex enim. Morbi convallis id ligula sit amet fringilla. Praesent hendrerit at felis at lobortis. Donec faucibus, nisi eu malesuada pellentesque, ante tortor scelerisque est, eget malesuada erat lacus sit amet tortor. Nullam nibh risus, sollicitudin ac convallis ut, facilisis vitae est. Nam eget lectus risus. Morbi tristique vulputate purus non faucibus.
+
+In et erat et nunc convallis convallis. Nunc pretium varius mattis. Aliquam lobortis laoreet turpis eu ullamcorper. Suspendisse potenti. Nunc tempor luctus leo sit amet pharetra. Ut egestas fringilla convallis. Phasellus est mauris, pellentesque sit amet turpis a, tempus dictum augue. Suspendisse consequat pulvinar faucibus.
+
+Mauris blandit pharetra sem, ac facilisis nulla consequat vitae. Suspendisse cursus tristique tortor vel faucibus. Vestibulum consectetur enim et velit sodales, eu commodo quam laoreet. Etiam semper magna dapibus odio laoreet, quis consectetur sem gravida. Quisque ut rutrum orci. Donec nec ligula egestas, dignissim libero nec, accumsan odio. Nam pharetra porta massa, vitae sodales metus porta a. Phasellus convallis rutrum ligula lacinia varius. Aliquam rhoncus velit a dui molestie, sed dapibus urna porta.
+
+In porta vehicula tellus, et condimentum felis. Cras sollicitudin, velit et maximus aliquet, odio neque varius odio, id accumsan leo ligula eu orci. Donec sagittis at eros at laoreet. Integer vitae gravida purus. Nulla ut turpis sagittis, accumsan odio id, mattis libero. Vestibulum bibendum quam a metus malesuada pretium. In semper molestie finibus. Ut nec aliquam libero.</TextBlock>
+                   <TextBlock>Tags: Tag1 Tag2 Tag3 Tag4</TextBlock>
+                   </StackPanel>
+            
+                   <StackPanel Grid.Row = "1"
+                        Grid.Column = "0"
+                        Background = "#BA0191">
+                   </StackPanel>
+        </Grid>
+</Window>
